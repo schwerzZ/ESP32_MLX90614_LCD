@@ -8,7 +8,8 @@ Este projeto conecta um sensor de temperatura infravermelho MLX90614 e um displa
 - Display LCD 16x2 com módulo I2C
 
 ## Conexões
-- **ESP32 3V3** ↔️ **VCC do MLX90614 e LCD**
+- **ESP32 5V** ↔️ **VCC do LCD**
+- **ESP32 3V3** ↔️ **VCC do MLX90614**
 - **ESP32 GND** ↔️ **GND do MLX90614 e LCD**
 - **ESP32 GPIO 21 (SDA)** ↔️ **SDA do MLX90614 e LCD**
 - **ESP32 GPIO 22 (SCL)** ↔️ **SCL do MLX90614 e LCD**
